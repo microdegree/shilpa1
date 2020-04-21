@@ -12,12 +12,12 @@ export default class addDonors extends Component {
               <div class="wrapper wrapper--w900 ">
                 <div class="card cardH card-6 ">
                   <div class="card-heading m-4">
-                    <h2 class="title text-dark">Add Donors</h2>
+                    <h2 class="title text-dark">Add Product</h2>
                   </div>
                   <div class="card-body">
                     <form method="POST">
                       <div class="form-row frow">
-                        <div class="name">Donors Name:</div>
+                        <div class="name">Product Name:</div>
                         <div class="value">
                           <input
                             class="input--style-6"
@@ -27,7 +27,7 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Address</div>
+                        <div class="name">Category</div>
                         <div class="value">
                           <div class="input-group">
                             <input

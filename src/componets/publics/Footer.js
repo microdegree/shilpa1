@@ -2,60 +2,81 @@ import React from "react";
 
 export default function Footer() {
   return (
-    <footer class="flex-rw">
-  
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">About Pavilion</h4></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">GET TO KNOW US</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">PROMOS</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">BECOME A RETAILER</a></li>
+    <footer id="footer" className="footers mt-5">
+      <div className="footer-top footers">
+        <div className="container">
+          <div className="row">
+            <div className="col-lg-4 col-md-6 footer-info">
+              <h3>FarmEasy</h3>
+              <p>
+                We are trying to connect small and large farmers to sell their
+                quality product to the diffent places.
+              </p>
+              <div className="social-links">
+                <a href="#" className="twitter">
+                  <i className="fa fa-twitter"></i>
+                </a>
+                <a href="#" className="facebook">
+                  <i className="fa fa-facebook"></i>
+                </a>
+                <a href="#" className="instagram">
+                  <i className="fa fa-instagram"></i>
+                </a>
+                <a href="#" className="google-plus">
+                  <i className="fa fa-google-plus"></i>
+                </a>
+                <a href="#" className="linkedin">
+                  <i className="fa fa-linkedin"></i>
+                </a>
+              </div>
+            </div>
 
-    <li><a href='' itemprop="significantLink" class="generic-anchor footer-list-anchor">JOB OPENINGS</a></li>
+            <div className="col-lg-4 col-md-6 footer-links">
+              <h4>Useful Links</h4>
+              <ul>
+                <li>
+                  <a href="#">Home</a>
+                </li>
+                <li>
+                  <a href="/Home#services">About us</a>
+                </li>
+                <li>
+                  <a href="/Home#services">Services</a>
+                </li>
+                <li>
+                  <a href="#">Terms of service</a>
+                </li>
+                <li>
+                  <a href="#">Privacy policy</a>
+                </li>
+              </ul>
+            </div>
 
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">EVENTS</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li>
-      <h4 class="footer-list-header">The Gift Selection</h4></li>
+            <div className="col-lg-4 col-md-6 footer-contact">
+              <h4>Contact Us</h4>
+              <p>
+                A108 Adam Street <br></br>
+                New York, NY 535022<br></br>
+                United States<br></br>
+                <strong>Phone:</strong> +1 5589 55488 55<br></br>
+                <strong>Email:</strong> info@example.com<br></br>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-
-    <li><a href='' class="generic-anchor footer-list-anchor">ANGEL FIGURINES</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">HOME DECOR</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">MUGS</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor">PET LOVER</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" target="_blank">HANDBAGS & JEWELRY</a></li>
-  </ul>
-  <ul class="footer-list-top">
-    <li id='help'>
-      <h4 class="footer-list-header">Please Help Me</h4></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">CONTACT</a></li>
-    <li><a href='' class="generic-anchor footer-list-anchor" itemprop="significantLink">FAQ</a></li>
-    <li id='find-a-store'><a href='/shop/store-locator' class="generic-anchor footer-list-anchor" itemprop="significantLink">STORE LOCATOR</a></li>
-    <li id='user-registration'><a href='/shop/user-registration?URL=' class="generic-anchor footer-list-anchor" itemprop="significantLink">NEW USERS</a></li>
-    <li id='order-tracking'><a href='/shop/order-status' itemprop="significantLink" class="generic-anchor footer-list-anchor">ORDER STATUS</a></li>
-  </ul>
-  <section class="footer-social-section flex-rw">
-      <span class="footer-social-overlap footer-social-connect">
-      CONNECT <span class="footer-social-small">with</span> US
-      </span>
-      <span class="footer-social-overlap footer-social-icons-wrapper">
-      <a href="" class="generic-anchor" target="_blank" title="Pinterest" itemprop="significantLink"><i class="fa fa-pinterest"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Facebook" itemprop="significantLink"><i class="fa fa-facebook"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Twitter" itemprop="significantLink"><i class="fa fa-twitter"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Instagram" itemprop="significantLink"><i class="fa fa-instagram"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Youtube" itemprop="significantLink"><i class="fa fa-youtube"></i></a>
-      <a href="" class="generic-anchor" target="_blank" title="Google Plus" itemprop="significantLink"><i class="fa fa-google-plus"></i></a>
-      </span>
-  </section>
-  <section class="footer-bottom-section flex-rw">
-<div class="footer-bottom-wrapper">   
-<i class="fa fa-copyright" role="copyright">
- 
-</i> 2019 Pavilion in <address class="footer-address" role="company address">Bergen, NY</address><span class="footer-bottom-rights"> - All Rights Reserved - </span>
-    </div>
-
-  </section>
-</footer>
+      <div className="container">
+        <div className="copyright">
+          © Copyright <strong>FarmEasy</strong>. All Rights Reserved
+        </div>
+        <div className="credits">
+          Designed by{" "}
+          <a href="https://bootstrapmade.com/">
+            Vidya<i className="fa fa-heart"></i>
+          </a>
+        </div>
+      </div>
+    </footer>
   );
 }

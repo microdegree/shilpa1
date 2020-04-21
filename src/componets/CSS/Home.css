@@ -48,11 +48,11 @@ h6 {
   bottom: -1px;
   width: 100%;
   height: 2px;
-  background-color: #dcf028;
+  background-color: #ffffff;
   z-index: 2;
 }
 .navbar-brand span {
-  color: #dcf028;
+  color: #ffffff;
   font-size: 30px;
   font-weight: 700;
   letter-spacing: 0.1em;
@@ -298,7 +298,7 @@ h6 {
 .navbar-default.navbar-trans .nav-link,
 .navbar-default.navbar-reduce .nav-link {
   font-size: 1.1rem;
-  color: rgb(73, 78, 1);
+  color: rgb(255, 255, 255);
   font-weight: 600;
   letter-spacing: 0.03em;
   transition: all 0.1s ease-in-out;
@@ -308,7 +308,7 @@ h6 {
 width: 150px;
 }
 nav {
-  background: linear-gradient(157deg, #ffffff, #aeec03);
+  background: linear-gradient(157deg, #ffffff, #ee8f36);
   -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
   -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
   transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -362,7 +362,7 @@ nav {
 }
 
 .navbar-default.navbar-trans .nav-link:before {
-  background-color: #dcf028;
+  background-color: #ffffff;
 }
 
 .navbar-default.navbar-trans .nav-link:hover {
@@ -557,7 +557,7 @@ nav {
 .section-footer .item-list-a i {
   font-size: 18px;
   padding-right: 4px;
-  color: #2eca6a;
+  color: #ee8f36;
 }
 
 .section-footer .widget-a .w-title-a {
@@ -599,14 +599,14 @@ footer .credits {
 --------------------------------------------------------------*/
 
 #footer {
-  background: #00428a;
+  background: #ee8f36;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #004a99;
+  background: #ee8f36;
   padding: 60px 0 30px 0;
 }
 
@@ -650,7 +650,7 @@ footer .credits {
 }
 
 #footer .footer-top .social-links a:hover {
-  background: #0067d5;
+  background: #ee8f36;
   color: #fff;
 }
 
@@ -686,7 +686,7 @@ footer .credits {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #74b5fc;
+  color: #ee8f36;
 }
 
 #footer .footer-top .footer-contact {
@@ -708,7 +708,7 @@ footer .credits {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"] {
-  background: #007bff;
+  background: #ee8f36;
   border: 0;
   width: 35%;
   padding: 6px 0;
@@ -719,7 +719,7 @@ footer .credits {
 }
 
 #footer .footer-top .footer-newsletter input[type="submit"]:hover {
-  background: #0062cc;
+  background: #ee8f36;
 }
 
 #footer .copyright {
@@ -839,19 +839,19 @@ footer .credits {
 
 .service_block p {
   font-size: 16px;
-  color: #888888;
+  color: #007bff;
   margin: 0px;
 }
 #service {
   font-size: 38px;
-  color: #222222;
+  color: #007bff;
 
   margin: 35px 0 25px 0;
   text-align: center;
 }
 #service h2 {
   font-size: 38px;
-  color: #222222;
+  color: #007bff;
   font-family: "Dosis";
   font-weight: 700;
   margin: 35px 0 25px 0;
@@ -863,8 +863,8 @@ footer .credits {
   display: flex;
   width: 100%;
   height: 90vh;
-  background: #5f0e85;
-  background: linear-gradient(57deg, #92c701, #3b5002);
+  background: #ee8f36;
+  background: linear-gradient(57deg, #ee8f36, #ee8f36);
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 
@@ -1021,7 +1021,7 @@ footer .credits {
   font-weight: 600;
   color: white;
   text-transform: uppercase;
-  background: linear-gradient(57deg, #92c701, #496303);
+  background: linear-gradient(57deg, #1385f0, #1385f0);
   border-radius: 4px 4px 4px 4px;
   padding: 10px 15px;
   justify-content: center;
@@ -1029,7 +1029,7 @@ footer .credits {
 }
 #product h2 {
   font-size: 38px;
-  color: #222222;
+  color: #1385f0;
   font-family: "Dosis";
   font-weight: 700;
   margin: 35px 0 25px 0;
@@ -1160,7 +1160,7 @@ footer .credits {
   line-height: 48px;
   font-size: 25px;
   color: #fff;
-  background: #aca902;
+  background: #ee8f36;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
@@ -1224,7 +1224,7 @@ footer .credits {
   width: 175px;
   height: 50px;
   letter-spacing: 0px;
-  background: #818301;
+  background: #1385f0;
   border-radius: 3px;
   color: #ffffff;
   font-size: 16px;
@@ -1904,7 +1904,7 @@ input.hidden {
   font-size: 16px;
 }
 .navf {
-  background: linear-gradient(157deg, #ffffff, #d1d406) !important;
+  background: linear-gradient(157deg, #a54d01, #ff7800) !important;
   transition: padding-top 0.3s, padding-bottom 0.3s;
   border: none;
 }
@@ -1982,8 +1982,8 @@ input.hidden {
   overflow: hidden;
   height: 100%;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(rgb(158, 135, 3)), to(#515703));
-  background: linear-gradient(90deg, rgb(109, 121, 1), #b1b403);
+  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ee8f36));
+  background: linear-gradient(90deg, #f5f4f4, #ee8f36);
   background-size: 200% 200%;
   -webkit-animation: bannerbg ease 8s infinite;
           animation: bannerbg ease 8s infinite;
@@ -2188,7 +2188,7 @@ main {
 }
 
 footer {
-  background: #373737;
+  background: #ee8f36;
   margin-top: auto;
   width: 100%;
 }
@@ -2395,8 +2395,8 @@ footer {
 }
 .btn-success {
   color: #fff;
-  background-color: #505202;
-  border-color: #505202;
+  background-color: #1385f0;
+  border-color: #1385f0;
 }
 .subscribe-form {
   font-size: 30px;
@@ -2533,17 +2533,17 @@ button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
 }
 
 .subscribe-section {
-  background: #8a8809;
+  background: #ee8f36;
   width: 100%;
   text-align: center;
   position: relative;
 }
 .address1{
-  color: #8a8809;
+  color: #ee8f36;
   margin-left: 50px;
 }
 .address2{
-  color: #8a8809;
+  color: #ee8f36;
   
 }
 .clr{

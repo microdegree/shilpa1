@@ -76,7 +76,7 @@ body {
 @media (max-width: 500px) {
   .navbar-nav {
     background-color: #000;
-    border-top: 3px solid #fed136;
+    border-top: 3px solid #fcfcfc;
     color: #fff;
     z-index: 1;
     margin-top: 5px;
@@ -178,7 +178,7 @@ legend {
   margin-top: auto;
   margin-bottom: auto;
   width: 400px;
-  background-color: rgba(163, 141, 16, 0.664) !important;
+  background-color: #1385f0 !important;
   color: mintcream;
 }
 #social_icon span {
@@ -207,7 +207,7 @@ legend {
 }
 /* Footer */
 .footers {
-  background: linear-gradient(57deg, #1e4d92, #00c6a7) !important;
+  background: linear-gradient(57deg, #ee8f36, #703702) !important;
   padding: 0 0 30px 0;
   color: #eee;
   font-size: 14px;

@@ -7,7 +7,7 @@ export default function Footer() {
         <div className="container">
           <div className="row">
             <div className="col-lg-4 col-md-6 footer-info">
-              <h3>FarmEasy</h3>
+              <h3>Online Retailer</h3>
               <p></p>
               <div className="social-links">
                 <a href="#" className="twitter">
@@ -70,7 +70,7 @@ export default function Footer() {
         <div className="credits">
           Designed by{" "}
           <a href="https://bootstrapmade.com/">
-            Maddy<i className="fa fa-heart"></i>
+            Vidya<i className="fa fa-heart"></i>
           </a>
         </div>
       </div>

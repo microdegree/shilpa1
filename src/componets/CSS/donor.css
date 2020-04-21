@@ -9,10 +9,10 @@
 .section-bg {
   background: linear-gradient(
     to right,
-    rgb(255, 255, 255) 6%,
-    rgb(240, 241, 148) 33%,
-    rgb(237, 238, 171) 58%,
-    rgb(179, 182, 32) 95%,
+    #ffffff 6%,
+    #e49550 33%,
+    #fa9134 58%,
+    #ff7800 95%,
     rgb(255, 255, 255) 100%
   );
   background-size: 400% 400%;

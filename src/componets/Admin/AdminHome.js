@@ -25,42 +25,16 @@ class AdminHome extends Component {
           </div>
         </section>  */}
 
-        <section class="counts section-bg mt-5">
-          <div class="container mt-5">
-            <div class="row">
-            
-              <div
-                class="col-lg-12 col-md-6 text-center animated fadeInUp wow animated"
-                data-aos="fade-up"
-                data-aos-delay="600"
-              >
-                <div >
-                <div class="row">
-                <div class="col-xl-6 col-lg-12 mb-50">
-                  <h2>Search List</h2>
-                  </div>
-                        <div class="col-xl-6 col-lg-12 mb-50">
-                <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"/>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-              </form>
-              </div>
-              </div>
-                </div>
-              </div>
-              
-            </div>
-          </div>
-        </section>
+      
         <section class="counts section-bg mt-5">
         <div className=" container-fluid mt-5" id="product">
-          <h2> List Of Donors</h2>
+          <h2> List Of Product</h2>
 
           <div className="row">
             <div className="col-lg-3 col-md-3 col-sm-3   animated fadeInUp wow animated">
               <div className="product-top">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
+                  src="https://5.imimg.com/data5/BH/PL/MY-7778582/maggi-noodles-250x250.jpg"
                   className="img1"
                   alt=""
                 />
@@ -97,7 +71,7 @@ class AdminHome extends Component {
             <div className="col-lg-3 col-md-3 col-sm-3   animated fadeInUp wow animated">
               <div className="product-top">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
+                  src="https://images-na.ssl-images-amazon.com/images/I/71eSAG5wTJL._SL1500_.jpg"
                   className="img1"
                   alt=""
                 />
@@ -133,7 +107,7 @@ class AdminHome extends Component {
             <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
               <div className="product-top">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
+                  src="https://images-na.ssl-images-amazon.com/images/I/61D7y8hUGmL._SL1500_.jpg"
                   className="img1"
                   alt=""
                 />
@@ -167,7 +141,7 @@ class AdminHome extends Component {
             <div className="col-lg-3 col-md-3 col-sm-3  animated fadeInUp wow animated">
               <div className="product-top">
                 <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
+                  src="https://images-na.ssl-images-amazon.com/images/I/81vJyb43URL._SX679_PIbundle-40,TopRight,0,0_AA679SH20_.jpg"
                   className="img1"
                   alt=""
                 />
@@ -228,7 +202,7 @@ class AdminHome extends Component {
 
         <div className="container mt-5  ">
         <div className="">
-          {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div> */}
+          {/* <div className="jumbotron col-md-6 col-sm-5 " id="login-first"></div>
           <div className="" id="login-second">
             <div class="page-wrapper p-t-50 p-b-50">
               <div class="wrapper ">
@@ -298,7 +272,7 @@ class AdminHome extends Component {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       </Fragment>

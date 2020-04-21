@@ -12,7 +12,10 @@ import AdminNavbar from "./componets/Admin/AdminNavbar";
 
 import All from "./componets/publics/All";
 // import Alert from "./componets/publics/Alert";
-
+import UFunctions from "./componets/Company/UFunctions";
+import CompanyNavbar from "./componets/Company/CompanyNavbar";
+import MFunctions from "./componets/MainAdmin/MFunctions";
+import MainNavbar from "./componets/MainAdmin/MainNavbar";
 import UserHome from "./componets/UserAdmin/UserHome";
 
 class App extends React.Component {
@@ -47,9 +50,12 @@ class App extends React.Component {
             <Route exact path={"/Login/:type"} component={Login} />
           </Switch>
           <AdminNavbar />
+          <CompanyNavbar />
+          <MainNavbar />
           <Switch>
             <Route path={"/vendor/"} component={Functions} />
-
+            <Route path={"/user/"} component={UFunctions} />
+            <Route path={"/main/"} component={MFunctions} />
             <Route exact path={"/admin"} component={UserHome} />
 
             <All></All>
