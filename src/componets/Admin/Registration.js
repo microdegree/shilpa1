@@ -17,12 +17,12 @@ class Registration extends Component {
               <div class="wrapper wrapper--w900">
                 <div class="card cardH card-6 ">
                   <div class="card-heading">
-                    <h2 class="title text-dark ">&nbsp;&nbsp;&nbsp;&nbsp;Registration</h2>
+                    <h2 class="title text-dark ">&nbsp;&nbsp;&nbsp;&nbsp;Brand Registration</h2>
                   </div>
                   <div class="card-body  text-light">
                     <form method="POST">
                       <div class="form-row">
-                        <div class="name">First name</div>
+                        <div class="name">Brand name</div>
                         <div class="value">
                           <input
                             class="input--style-6"
@@ -32,7 +32,7 @@ class Registration extends Component {
                         </div>
                       </div>
                       <div class="form-row">
-                        <div class="name">Last name</div>
+                        <div class="name">Brand Location</div>
                         <div class="value">
                           <input
                             class="input--style-6"
@@ -42,7 +42,7 @@ class Registration extends Component {
                         </div>
                       </div>
                       <div class="form-row">
-                        <div class="name">Email address</div>
+                        <div class="name">Category</div>
                         <div class="value">
                           <div class="input-group">
                             <input

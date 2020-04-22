@@ -12,12 +12,12 @@ export default class addDonors extends Component {
               <div class="wrapper wrapper--w900 ">
                 <div class="card cardH card-6 ">
                   <div class="card-heading m-4">
-                    <h2 class="title text-dark">Add Product</h2>
+                    <h2 class="title text-dark1">Add Product</h2>
                   </div>
                   <div class="card-body">
                     <form method="POST">
                       <div class="form-row frow">
-                        <div class="name">Product Name:</div>
+                        <div class="name">Brand Name:</div>
                         <div class="value">
                           <input
                             class="input--style-6"
@@ -27,13 +27,74 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">Category</div>
+                        <div class="name">Brand Category</div>
                         <div class="value">
                           <div class="input-group">
                             <input
                               class="input--style-6"
                               type="text"
                               name="desc"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+
+                      <div class="form-row frow">
+                        <div class="name">Upload Image:</div>
+                        <div class="value">
+                          <div class="input-group js-input-file">
+                            <input
+                              class="input-file"
+                              type="file"
+                              name="file_doc"
+                              id="file"
+                            />
+                            <label class="label--file" for="file">
+                              Choose file
+                            </label>
+                            <span class="input-file__info">No file chosen</span>
+                          </div>
+                          <div class="label--desc">
+                            Upload your Document/Id proff or any other relevant
+                            file. Max file size 50 MB
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Location</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Quantity</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-row frow">
+                        <div class="name">Price</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
                               placeholder=""
                             />
                           </div>
@@ -53,7 +114,7 @@ export default class addDonors extends Component {
                         </div>
                       </div>
                       <div class="form-row frow">
-                        <div class="name">mobile no</div>
+                        <div class="name">Contact</div>
                         <div class="value">
                           <div class="input-group">
                             <input
@@ -65,7 +126,19 @@ export default class addDonors extends Component {
                           </div>
                         </div>
                       </div>
-                    
+                      <div class="form-row frow">
+                        <div class="name">Total Cost</div>
+                        <div class="value">
+                          <div class="input-group">
+                            <input
+                              class="input--style-6"
+                              type="email"
+                              name="email"
+                              placeholder=""
+                            />
+                          </div>
+                        </div>
+                      </div>
                     </form>
                   </div>
                   <div class="card-footer">

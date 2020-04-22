@@ -5,225 +5,181 @@ export default class ShowDonors extends Component {
   render() {
     return (
       <div>
-        <section>
-          <div id="portfolio">
-            <div class="container showtop   ">
-              <div class="page-title text-center">
-                <h1>Product</h1>
+      <section>
+        <div id="portfolio">
+          <div class="container showtop  login-second ">
+            <div class="page-title text-center">
+              <h1 class="text-dark">Products</h1>
 
-                <hr class="pg-titl-bdr-btm" />
-              </div>
-              <div class="row">
-                <div class="col-lg-12 ">{/* categotize */}</div>
-              </div>
+              <hr class="pg-titl-bdr-btm" />
+            </div>
+            <div class="row">
+              <div class="col-lg-12 ">{/* categotize */}</div>
+            </div>
 
-              <div class="row" id="" style={{ opacity: 1 }}>
-                {/*  */}
-                <div class="container pt-4">
-                  <div class=" tabletrans ">
-                    <div class="well">
-                      
-                      <table class="table table-hover">
-                        <tr>
-                          <th>
-                            <label>Product Details</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Name</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Address</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Contact No</label>
-                          </th>
+            <div class="row" id="" style={{ opacity: 1 }}>
+              {/*  */}
+              <div class="container pt-4">
+                <div class=" tabletrans ">
+                  <div class="well">
+                    <div class="row mb-5">
+                      <div class="col-md-6">
+                        <div class="pull-right">
+                          <a
+                            href="/farmer/addItems"
+                            class="btn btn-info btn-sm p-2"
+                          >
+                            Add Products
+                          </a>
+                        </div>
+                      </div>
 
-                         
-                        </tr>
-
-                        <tr>
-                          <td className="tbld">
-                            <img
-                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                              alt=""
-                              width="150px"
-                              height="100px"
-                            ></img>
-                            
-                          </td>
-                          <td className="tbld">abcd</td>
-                          <td className="tbld">abcdefghijkl</td>
-                          <td className="tbld">000000000</td>
-
-                          <td className="d-flex justify-content-center tbld">
-                     
-                          </td>
-                        </tr>
-                      </table>
+                      <div class="pull-left">
+                        <a href="/FHome" class="btn btn-info btn-sm p-2">
+                          Back to Home
+                        </a>
+                      </div>
                     </div>
-                  </div>
-                </div>
-              </div>
+                    <table class="table table-hover">
+                      <tr>
+                        <th>
+                          <label class="text-dark">Img</label>
+                        </th>
+                        <th>
+                          {" "}
+                          <label class="text-dark">Products Name</label>
+                        </th>
+                        <th>
+                          {" "}
+                          <label class="text-dark">Location</label>
+                        </th>
+                        <th>
+                          {" "}
+                          <label class="text-dark">Price</label>
+                        </th>
 
-              <div class="row" id="" style={{ opacity: 1 }}>
-                {/*  */}
-                <div class="container pt-4">
-                  <div class=" tabletrans ">
-                    <div class="well">
-                      
-                      <table class="table table-hover">
-                        <tr>
-                          <th>
-                            <label>Product Details</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Name</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Address</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Contact No</label>
-                          </th>
+                        <th>
+                          {" "}
+                          <label className="d-flex justify-content-center text-dark">
+                            Actions
+                          </label>
+                        </th>
+                      </tr>
 
-                         
-                        </tr>
+                      <tr>
+                        <td className="tbld">
+                          <img
+                            src="http://starkovtattoo.spb.ru/images/200/DSC100224440.png"
+                            alt=""
+                            width="150px"
+                            height="100px"
+                          ></img>
+                        </td>
+                        <td className="tbld text-dark">2</td>
+                        <td className="tbld text-dark">3</td>
+                        <td className="tbld text-dark">g</td>
 
-                        <tr>
-                          <td className="tbld">
-                            <img
-                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                              alt=""
-                              width="150px"
-                              height="100px"
-                            ></img>
-                            
-                          </td>
-                          <td className="tbld">abcd</td>
-                          <td className="tbld">abcdefghijkl</td>
-                          <td className="tbld">000000000</td>
+                        <td className="d-flex justify-content-center tbld">
+                          <div className="btn-group ">
+                            <a href="" class="btn btn-danger btn-md mr-5">
+                              <i class="fa fa-trash-o"></i>
+                            </a>
 
-                          <td className="d-flex justify-content-center tbld">
-                     
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
+                            <a href="" class="btn btn-info btn-md">
+                              <i class="fa fa-edit"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-              <div class="row" id="" style={{ opacity: 1 }}>
-                {/*  */}
-                <div class="container pt-4">
-                  <div class=" tabletrans ">
-                    <div class="well">
-                      
-                      <table class="table table-hover">
-                        <tr>
-                          <th>
-                            <label>Product Details</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Name</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Address</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Contact No</label>
-                          </th>
+                      <tr>
+                        <td className="tbld">
+                          <img
+                            src="http://starkovtattoo.spb.ru/images/200/DSC100224440.png"
+                            alt=""
+                            width="150px"
+                            height="100px"
+                          ></img>
+                        </td>
+                        <td className="tbld text-dark">2</td>
+                        <td className="tbld text-dark">3</td>
+                        <td className="tbld text-dark">g</td>
 
-                         
-                        </tr>
+                        <td className="d-flex justify-content-center tbld">
+                          <div className="btn-group ">
+                            <a href="" class="btn btn-danger btn-md mr-5">
+                              <i class="fa fa-trash-o"></i>
+                            </a>
 
-                        <tr>
-                          <td className="tbld">
-                            <img
-                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                              alt=""
-                              width="150px"
-                              height="100px"
-                            ></img>
-                            
-                          </td>
-                          <td className="tbld">abcd</td>
-                          <td className="tbld">abcdefghijkl</td>
-                          <td className="tbld">000000000</td>
+                            <a href="" class="btn btn-info btn-md">
+                              <i class="fa fa-edit"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                          <td className="d-flex justify-content-center tbld">
-                     
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
-                  </div>
-                </div>
-              </div>
 
-              <div class="row" id="" style={{ opacity: 1 }}>
-                {/*  */}
-                <div class="container pt-4">
-                  <div class=" tabletrans ">
-                    <div class="well">
-                      
-                      <table class="table table-hover">
-                        <tr>
-                          <th>
-                            <label>Product Details</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Name</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Address</label>
-                          </th>
-                          <th>
-                            {" "}
-                            <label>Contact No</label>
-                          </th>
+                      <tr>
+                        <td className="tbld">
+                          <img
+                            src="http://starkovtattoo.spb.ru/images/200/DSC100224440.png"
+                            alt=""
+                            width="150px"
+                            height="100px"
+                          ></img>
+                        </td>
+                        <td className="tbld text-dark">2</td>
+                        <td className="tbld text-dark">3</td>
+                        <td className="tbld text-dark">g</td>
 
-                         
-                        </tr>
+                        <td className="d-flex justify-content-center tbld">
+                          <div className="btn-group ">
+                            <a href="" class="btn btn-danger btn-md mr-5">
+                              <i class="fa fa-trash-o"></i>
+                            </a>
 
-                        <tr>
-                          <td className="tbld">
-                            <img
-                              src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTCsM9AEGR43l6M2QXOLs3BivrJ4Mia5AtyccNVMu9UBPIdIu6J&usqp=CAU"
-                              alt=""
-                              width="150px"
-                              height="100px"
-                            ></img>
-                            
-                          </td>
-                          <td className="tbld">abcd</td>
-                          <td className="tbld">abcdefghijkl</td>
-                          <td className="tbld">000000000</td>
+                            <a href="" class="btn btn-info btn-md">
+                              <i class="fa fa-edit"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
 
-                          <td className="d-flex justify-content-center tbld">
-                     
-                          </td>
-                        </tr>
-                      </table>
-                    </div>
+
+                      <tr>
+                        <td className="tbld">
+                          <img
+                            src="http://starkovtattoo.spb.ru/images/200/DSC100224440.png"
+                            alt=""
+                            width="150px"
+                            height="100px"
+                          ></img>
+                        </td>
+                        <td className="tbld text-dark">2</td>
+                        <td className="tbld text-dark">3</td>
+                        <td className="tbld text-dark">g</td>
+
+                        <td className="d-flex justify-content-center tbld">
+                          <div className="btn-group ">
+                            <a href="" class="btn btn-danger btn-md mr-5">
+                              <i class="fa fa-trash-o"></i>
+                            </a>
+
+                            <a href="" class="btn btn-info btn-md">
+                              <i class="fa fa-edit"></i>
+                            </a>
+                          </div>
+                        </td>
+                      </tr>
+                    </table>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-      </div>
+        </div>
+      </section>
+    </div>
     );
   }
 }

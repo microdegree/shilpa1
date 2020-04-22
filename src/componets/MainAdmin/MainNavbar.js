@@ -125,51 +125,19 @@ export default class Navbar extends Component {
           >
             <ul className="navbar-nav">
               <li className="nav-item">
-                <a className="nav-link " href="/user/Home">
+                <a className="nav-link " href="/main/Home">
                   Home
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Retailer
+              <li className="nav-item">
+                <a className="nav-link " href="/main/ShowCompany">
+                Brands List 
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/vendor/addDonors">
-                    Add/Delete Retailer
-                  </a>
-                  <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Retailer
-                  </a>
-                </div>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-toggle="dropdown"
-                  aria-haspopup="true"
-                  aria-expanded="false"
-                >
-                  Brand
+              <li className="nav-item">
+                <a className="nav-link " href="/main/ShowStudent">
+                   Retailer List 
                 </a>
-                <div className="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <a className="dropdown-item" href="/vendor/addDonors">
-                  Add/Delete Brand
-                  </a>
-                  <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Brand
-                  </a>
-                </div>
               </li>
               
             </ul>

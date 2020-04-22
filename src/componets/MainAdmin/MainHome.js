@@ -37,7 +37,7 @@ class CompanyHome extends Component {
                 <div >
                 <div class="row">
                 <div class="col-xl-6 col-lg-12 mb-50">
-                  <h2> List of Retailer/Brand</h2>
+                  <h2> List of students/company</h2>
                   </div>
                         
               </div>
