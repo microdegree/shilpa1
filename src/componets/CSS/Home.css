@@ -308,7 +308,7 @@ h6 {
 width: 150px;
 }
 nav {
-  background: linear-gradient(157deg, #ffffff, #ee8f36);
+  background: linear-gradient(157deg, #ffffff, #037067);
   -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
   -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
   transition: padding-top 0.3s, padding-bottom 0.3s;
@@ -863,8 +863,8 @@ footer .credits {
   display: flex;
   width: 100%;
   height: 90vh;
-  background: #ee8f36;
-  background: linear-gradient(57deg, #ee8f36, #ee8f36);
+  background: #037067;
+  background: linear-gradient(57deg, #037067, #037067);
   clip-path: polygon(0% 0%, 100% 0%, 100% 80%, 0% 100%);
 }
 
@@ -1160,7 +1160,7 @@ footer .credits {
   line-height: 48px;
   font-size: 25px;
   color: #fff;
-  background: #ee8f36;
+  background: #037067;
   border-radius: 50%;
   transition: all 0.3s ease-in-out;
 }
@@ -1904,7 +1904,7 @@ input.hidden {
   font-size: 16px;
 }
 .navf {
-  background: linear-gradient(157deg, #a54d01, #ff7800) !important;
+  background: linear-gradient(157deg, #037067, #015049) !important;
   transition: padding-top 0.3s, padding-bottom 0.3s;
   border: none;
 }
@@ -1982,8 +1982,8 @@ input.hidden {
   overflow: hidden;
   height: 100%;
   position: relative;
-  background: -webkit-gradient(linear, left top, right top, from(#ffffff), to(#ee8f36));
-  background: linear-gradient(90deg, #f5f4f4, #ee8f36);
+  background: -webkit-gradient(linear, left top, right top, from(#037067), to(#037067));
+  background: linear-gradient(90deg, #037067, #037067);
   background-size: 200% 200%;
   -webkit-animation: bannerbg ease 8s infinite;
           animation: bannerbg ease 8s infinite;
@@ -2533,17 +2533,21 @@ button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0;}
 }
 
 .subscribe-section {
-  background: #ee8f36;
+  background: #037067;
   width: 100%;
   text-align: center;
   position: relative;
 }
 .address1{
-  color: #ee8f36;
+  color: #037067;
   margin-left: 50px;
 }
 .address2{
   color: #ee8f36;
+  
+}
+.address3{
+  color: #ffffff;
   
 }
 .clr{

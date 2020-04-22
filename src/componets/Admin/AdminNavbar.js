@@ -97,7 +97,7 @@ export default class Navbar extends Component {
           title="Profile"
         >
           <span
-            className="fa fa-user fa-2x"
+            className="fa fa-user fa-2x top1"
             style={{ color: "#f2f2f3  " }}
             aria-hidden="true"
           ></span>
@@ -157,14 +157,14 @@ export default class Navbar extends Component {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                   Product
+                   Doctor Details
                 </a>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <a className="dropdown-item" href="/vendor/addDonors">
-                    Add Product
+                    Add Doctor
                   </a>
                   <a className="dropdown-item" href="/vendor/ShowDonors">
-                    Show Product
+                    Show Doctor
                   </a>
                 </div>
               </li>

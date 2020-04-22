@@ -10,9 +10,9 @@
   background: linear-gradient(
     to right,
     #ffffff 6%,
-    #e49550 33%,
-    #fa9134 58%,
-    #ff7800 95%,
+    #037067 33%,
+    #037067 58%,
+    #037067 95%,
     rgb(255, 255, 255) 100%
   );
   background-size: 400% 400%;
@@ -252,6 +252,7 @@ textarea {
   -moz-border-radius-topright: 3px;
   border-top-right-radius: 3px;
 }
+
 
 .card-6 .card-body:before {
   bottom: 100%;

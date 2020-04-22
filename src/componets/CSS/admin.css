@@ -519,10 +519,7 @@ p {
   width: 100%;
   min-width: 100%;
 }
-.card {
-  border: 0;
-  background: #fff;
-}
+
 .bg-gradient-danger {
   background: -webkit-gradient(
     linear,
@@ -680,7 +677,7 @@ p {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #fff;
+  background-color: rgb(5, 67, 201);
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.3125rem;

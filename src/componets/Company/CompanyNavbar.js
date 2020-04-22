@@ -134,7 +134,7 @@ export default class Navbar extends Component {
             <ul className="navbar-nav">
               <li className="nav-item">
                 <a className="nav-link " href="/user/Home">
-                  Brands
+                  Doctors
                 </a>
               </li>
              
