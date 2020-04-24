@@ -22,7 +22,7 @@ class Registration extends Component {
                 <div class="card-body  text-light">
                   <form method="POST">
                     <div class="form-row">
-                      <div class="name ">Doctors name</div>
+                      <div class="name ">Student name</div>
                       <div class="value">
                         <input
                           class="input--style-6"
